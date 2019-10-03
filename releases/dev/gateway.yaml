@@ -28,11 +28,7 @@ spec:
     replicaCount: 1
     container:
       image: docker.eks.layer7.broadcom.com/repository/docker-hosted/gateway                                      # Repository name, e.g docker.cluster1.example.com/repository/docker-hosted/gateway
-<<<<<<< HEAD
-      tag: '1'                                      # Image tag version, e.g 1.0
-=======
       tag: '1'                                        # Image tag version, e.g 1.0
->>>>>>> 03861ebd5a367113c460d7ebdfb0d3a2e123f674
     imageCredentials:
       name: "gateway-dev"                               # Image credential name, e.g gateway.name-example01
       registry: "docker.eks.layer7.broadcom.com"                                   # Registry name, e.g docker.cluster1.example.com
